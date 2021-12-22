@@ -26,7 +26,7 @@ public class RequestServiceImpl implements RequestService {
 
     @Override
     public Long getCountAllRequest() {
-        return repository.getCountAllRequest();
+        return repository.count();
     }
 
     @Override
